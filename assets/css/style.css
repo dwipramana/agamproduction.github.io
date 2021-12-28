@@ -35,7 +35,7 @@ body {
 /* Hero */
 #hero {
   position: relative;
-  background-image: url('/assets/img/bg/hero-min.jpg');
+  background-image: url('../../assets/img/bg/hero-min.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ body {
 
 /* About */
 #about {
-  background-image: url('/assets/img/bg/mark-team-min.png');
+  background-image: url('../../assets/img/bg/mark-team-min.png');
 }
 #about h4 {
   color: var(--acsentColor);
@@ -155,7 +155,7 @@ body {
 
 /* Service */
 #service {
-  background-image: url('/assets/img/bg/mark-latest-new.png');
+  background-image: url('../../assets/img/bg/mark-latest-new.png');
   background-size: cover;
 }
 #service h4 {
@@ -163,7 +163,7 @@ body {
 }
 #service .graphic {
   height: 270px;
-  background-image: url('/assets/img/bg/bg-service-min.jpg');
+  background-image: url('../../assets/img/bg/bg-service-min.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50px 10px 10px 10px;
@@ -176,7 +176,7 @@ body {
 }
 #service .uiux {
   height: 270px;
-  background-image: url('/assets/img/bg/bg-service-min.jpg');
+  background-image: url('../../assets/img/bg/bg-service-min.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50px 10px 10px 10px;
@@ -189,7 +189,7 @@ body {
 }
 #service .frontend {
   height: 270px;
-  background-image: url('/assets/img/bg/bg-service-min.jpg');
+  background-image: url('../../assets/img/bg/bg-service-min.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50px 10px 10px 10px;
@@ -204,7 +204,7 @@ body {
 
 /* Tools */
 #tools {
-  background-image: url('/assets/img/bg/red-mark-min.png');
+  background-image: url('../../assets/img/bg/red-mark-min.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -217,7 +217,7 @@ body {
 /* Portfolio */
 #portfolio {
   background-color: var(--secondcolor);
-  background-image: url('/assets/img/bg/mark-working.png');
+  background-image: url('../../assets/img/bg/mark-working.png');
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--maincolor);
@@ -259,7 +259,7 @@ body {
 
 /* Footer */
 #footer {
-  background-image: url('/assets/img/bg/mark.jpg');
+  background-image: url('../../assets/img/bg/mark.jpg');
   background-size: cover;
   background-position: center;
   color: var(--maincolor);
