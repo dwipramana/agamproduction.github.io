@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="95.8823mm" height="30.4644mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2731 868"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#222222;fill-rule:nonzero}
+    .fil2 {fill:url(#id0);fill-rule:nonzero}
+    .fil0 {fill:url(#id1);fill-rule:nonzero}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="objectBoundingBox" x1="50.0001%" y1="0%" x2="50.0001%" y2="99.9991%">
+   <stop offset="0" style="stop-opacity:1; stop-color:#CC0404"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#770C0E"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="objectBoundingBox" x1="43.0464%" y1="0%" x2="56.9536%" y2="103.574%">
+   <stop offset="0" style="stop-opacity:1; stop-color:#CF0404"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#6A0D0F"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2187920465312">
+   <path class="fil0" d="M5 122l91 0c2,-22 13,-44 43,-44 25,0 41,15 41,42 0,36 -30,44 -62,44l-18 0 0 76 18 0c49,0 70,14 70,50 0,26 -16,45 -45,45 -35,0 -52,-21 -52,-52l-91 0c3,90 63,129 146,129 84,0 132,-48 132,-115 0,-53 -27,-83 -67,-97l0 -2c27,-9 60,-37 60,-90 0,-60 -45,-108 -130,-108 -81,0 -133,43 -136,122z"/>
+   <polygon id="1" class="fil0" points="436,78 436,176 341,176 341,260 436,260 436,357 525,357 525,260 620,260 620,176 525,176 525,78 "/>
+   <polygon class="fil1" points="788,319 788,473 901,473 901,319 1063,7 935,7 846,202 755,7 626,7 "/>
+   <polygon id="1" class="fil1" points="1395,7 1109,7 1109,473 1395,473 1395,382 1223,382 1223,280 1375,280 1375,192 1223,192 1223,98 1395,98 "/>
+   <path id="2" class="fil1" d="M1787 473l120 0 -169 -466 -131 0 -169 466 119 0 28 -82 174 0 28 82zm-57 -170l-115 0 57 -171 58 171z"/>
+   <path id="3" class="fil1" d="M2205 158c0,37 -20,59 -62,59l-71 0 0 -116 71 0c42,0 62,23 62,57zm-246 -151l0 466 113 0 0 -176 27 0 98 176 128 0 -108 -184c72,-22 104,-77 104,-135 0,-82 -57,-147 -172,-147l-190 0z"/>
+   <path id="4" class="fil1" d="M2731 334c0,-156 -231,-119 -231,-200 0,-30 21,-44 48,-43 31,1 52,19 54,49l123 0c-5,-89 -73,-140 -175,-140 -98,0 -170,49 -170,138 -1,165 232,119 232,205 0,27 -21,44 -54,44 -32,0 -55,-17 -58,-53l-121 0c3,94 81,144 182,144 109,0 170,-65 170,-144z"/>
+   <polygon class="fil2" points="201,538 0,538 0,865 201,865 201,801 80,801 80,730 187,730 187,668 80,668 80,602 201,602 "/>
+   <polygon id="1" class="fil2" points="453,865 546,865 438,703 542,538 451,538 393,637 328,538 235,538 342,699 237,865 328,865 386,765 "/>
+   <path id="2" class="fil2" d="M666 684l0 -82 43 0c32,0 46,16 46,41 0,25 -14,41 -46,41l-43 0zm170 -41c0,-60 -40,-105 -121,-105l-129 0 0 327 80 0 0 -117 49 0c84,0 121,-51 121,-105z"/>
+   <polygon id="3" class="fil2" points="1078,538 877,538 877,865 1078,865 1078,801 957,801 957,730 1064,730 1064,668 957,668 957,602 1078,602 "/>
+   <path id="4" class="fil2" d="M1303 644c0,26 -14,41 -44,41l-50 0 0 -81 50 0c30,0 44,16 44,40zm-173 -106l0 327 79 0 0 -123 20 0 68 123 90 0 -76 -129c51,-15 73,-54 73,-95 0,-57 -40,-103 -120,-103l-134 0z"/>
+   <polygon id="5" class="fil2" points="1434,865 1514,865 1514,538 1434,538 "/>
+   <polygon id="6" class="fil2" points="1772,538 1572,538 1572,865 1772,865 1772,801 1651,801 1651,730 1758,730 1758,668 1651,668 1651,602 1772,602 "/>
+   <polygon id="7" class="fil2" points="2037,538 2037,741 1904,538 1824,538 1824,865 1904,865 1904,663 2037,865 2117,865 2117,538 "/>
+   <path id="8" class="fil2" d="M2161 701c0,98 68,167 165,167 78,0 137,-44 155,-115l-87 0c-14,28 -39,42 -69,42 -49,0 -82,-36 -82,-94 0,-58 33,-94 82,-94 30,0 55,14 69,42l87 0c-18,-71 -77,-115 -155,-115 -97,0 -165,69 -165,167z"/>
+   <polygon id="9" class="fil2" points="2731,538 2530,538 2530,865 2731,865 2731,801 2610,801 2610,730 2717,730 2717,668 2610,668 2610,602 2731,602 "/>
+  </g>
+ </g>
+</svg>

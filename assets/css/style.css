@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+:root {
+  --maincolor: #ffffff;
+  --secondcolor: #262626;
+  --acsentColor: #c3313b;
+}
+* {
+  font-family: roboto;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+/* Contact */
+#contact {
+  background-color: var(--secondcolor);
+}
+#contact p {
+  font-size: 0.9rem;
+}
+/* End Contact */
+
+/* Navbar */
+#navbar .navbar-nav a {
+  font-weight: 700;
+  color: var(--secondcolor);
+}
+#navbar .navbar-nav .active {
+  color: var(--acsentColor);
+}
+/* End Navbar */
+
+/* Hero */
+#hero {
+  position: relative;
+  background-image: url('/assets/img/bg/hero-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#hero h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+#hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+#hero p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+#hero .btnHeroBox {
+  padding-top: 20px;
+}
+#hero .btnHeroBox .hireMe {
+  background-color: var(--maincolor);
+  color: var(--acsentColor);
+  font-weight: 500;
+}
+#hero .btnHeroBox .cv {
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+}
+/* End Hero */
+
+/* Animate 1 */
+.animate1 {
+  position: absolute;
+  right: 15%;
+  margin-top: -52px;
+  animation: leftBounce 3s ease-in-out infinite;
+  z-index: -9;
+}
+@keyframes leftBounce {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(25px);
+  }
+}
+
+/* End Animate 1 */
+
+/* About */
+#about {
+  background-image: url('/assets/img/bg/mark-team-min.png');
+}
+#about h4 {
+  color: var(--acsentColor);
+}
+#about h3 {
+  font-weight: 700;
+}
+#about .profileAbout {
+  animation: profile2 5s ease-in-out infinite;
+}
+@keyframes profile2 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+}
+
+#about .animate2 {
+  position: absolute;
+  left: 10%;
+  margin-top: -30%;
+  z-index: -2;
+  animation: animate2 3s ease-in-out infinite;
+}
+@keyframes animate2 {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(25px);
+  }
+}
+
+#about .animate3 {
+  position: absolute;
+  left: 37%;
+  margin-top: -22%;
+  z-index: -2;
+  animation: animate3 3s ease-in-out infinite;
+}
+@keyframes animate3 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+}
+#about .btnAboutBox .hireMe {
+  border: 1px solid var(--acsentColor);
+  color: var(--acsentColor);
+  font-weight: 500;
+}
+#about .btnAboutBox .cv {
+  background-color: var(--acsentColor);
+  color: var(--maincolor);
+}
+/* End About */
+
+/* Service */
+#service {
+  background-image: url('/assets/img/bg/mark-latest-new.png');
+  background-size: cover;
+}
+#service h4 {
+  color: var(--acsentColor);
+}
+#service .graphic {
+  height: 270px;
+  background-image: url('/assets/img/bg/bg-service-min.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px 10px 10px 10px;
+}
+#service .graphic p {
+  color: var(--maincolor);
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: left;
+}
+#service .uiux {
+  height: 270px;
+  background-image: url('/assets/img/bg/bg-service-min.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px 10px 10px 10px;
+}
+#service .uiux p {
+  color: var(--maincolor);
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: left;
+}
+#service .frontend {
+  height: 270px;
+  background-image: url('/assets/img/bg/bg-service-min.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px 10px 10px 10px;
+}
+#service .frontend p {
+  color: var(--maincolor);
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: left;
+}
+/* End Service */
+
+/* Tools */
+#tools {
+  background-image: url('/assets/img/bg/red-mark-min.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#tools img {
+  padding-bottom: 15px;
+  margin: 0px 40px 0px 40px;
+}
+/* End Tools */
+
+/* Portfolio */
+#portfolio {
+  background-color: var(--secondcolor);
+  background-image: url('/assets/img/bg/mark-working.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--maincolor);
+}
+#portfolio h4 {
+  color: var(--acsentColor);
+}
+#portfolio .project img {
+  width: 100%;
+}
+#portfolio i {
+  color: var(--acsentColor);
+}
+#portfolio h3 {
+  font-size: 1.2rem;
+}
+/* End Portfolio */
+
+/* Promotion */
+#promotion h4 {
+  color: var(--acsentColor);
+}
+#promotion h1 {
+  font-weight: 700;
+}
+#promotion .btnPromotionBox .hireMe {
+  background-color: var(--acsentColor);
+  color: var(--maincolor);
+}
+#promotion .btnPromotionBox .cv {
+  border: 1px solid var(--acsentColor);
+  color: var(--acsentColor);
+}
+#promotion .people img {
+  width: 60%;
+}
+
+/* EndPromotion */
+
+/* Footer */
+#footer {
+  background-image: url('/assets/img/bg/mark.jpg');
+  background-size: cover;
+  background-position: center;
+  color: var(--maincolor);
+}
+#footer img {
+  padding: 40px 0px 40px 0px;
+}
+#footer img {
+  width: 65%;
+}
+#footer p {
+  font-size: 16px;
+}
+#footer h6 {
+  font-size: 20px;
+}
+/* End Footer */ ;

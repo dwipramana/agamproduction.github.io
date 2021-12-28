@@ -1,0 +1,102 @@
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  #hero h3 {
+    font-size: 1.5rem;
+  }
+  #hero h1 {
+    font-size: 3rem;
+  }
+  #hero p {
+    font-size: 0.8rem;
+  }
+  #hero button {
+    font-size: 0.7rem;
+  }
+  #about .animate2,
+  .animate3 {
+    display: none;
+  }
+  #service .graphic {
+    height: 320px;
+  }
+  #service .uiux {
+    height: 320px;
+  }
+  #service .frontend {
+    height: 320px;
+  }
+}
+/* // Large devices (desktops, 992px and up)  */
+@media (max-width: 992px) {
+  #about h4 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  #service .graphic {
+    height: 215px;
+  }
+  #service .uiux {
+    height: 215px;
+  }
+  #service .frontend {
+    height: 215px;
+  }
+  #tools img {
+    margin: 0px 20px 0px 20px;
+  }
+  #footer img {
+    padding: 20px 0px 20px 0px;
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  #hero img {
+    display: none;
+  }
+  #service .graphic {
+    height: 210px;
+  }
+  #service .uiux {
+    height: 210px;
+  }
+  #service .frontend {
+    height: 210px;
+  }
+  #service .graphic i {
+    display: none;
+  }
+  #service .uiux i {
+    display: none;
+  }
+  #service .frontend i {
+    display: none;
+  }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  #service .graphic {
+    height: 270px;
+  }
+  #service .uiux {
+    height: 270px;
+  }
+  #service .frontend {
+    height: 270px;
+  }
+
+  #contact p {
+    font-size: 0.7rem;
+  }
+  #tools img {
+    margin: 0px 10px 0px 10px;
+  }
+  #promotion {
+    text-align: center;
+  }
+  #footer p {
+    font-size: 0.7rem;
+  }
+  #footer h6 {
+    font-size: 1rem;
+  }
+}
