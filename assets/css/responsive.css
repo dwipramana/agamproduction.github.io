@@ -12,55 +12,67 @@
   #hero button {
     font-size: 0.7rem;
   }
+
   #about .animate2,
   .animate3 {
     display: none;
   }
+
   #service .graphic {
-    height: 320px;
+    height: 375px;
   }
   #service .uiux {
-    height: 320px;
+    height: 375px;
   }
   #service .frontend {
-    height: 320px;
+    height: 375px;
+  }
+  #footer p {
+    font-size: 0.8rem;
   }
 }
 /* // Large devices (desktops, 992px and up)  */
 @media (max-width: 992px) {
+  #hero .btnHeroBox {
+    padding-top: 20px;
+  }
   #about h4 {
     text-align: center;
     padding-top: 10px;
   }
   #service .graphic {
-    height: 215px;
+    height: 240px;
   }
   #service .uiux {
-    height: 215px;
+    height: 240px;
   }
   #service .frontend {
-    height: 215px;
+    height: 240px;
   }
   #tools img {
     margin: 0px 20px 0px 20px;
   }
   #footer img {
     padding: 20px 0px 20px 0px;
+    width: 50%;
   }
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
+  #hero .btnHeroBox {
+    padding-top: 20px;
+  }
   #hero img {
     display: none;
   }
   #service .graphic {
-    height: 210px;
+    height: 240px;
   }
   #service .uiux {
-    height: 210px;
+    height: 240px;
   }
   #service .frontend {
-    height: 210px;
+    height: 240px;
   }
   #service .graphic i {
     display: none;
@@ -74,18 +86,21 @@
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+  #hero .btnHeroBox {
+    padding-top: 20px;
+  }
   #service .graphic {
-    height: 270px;
+    height: 280px;
   }
   #service .uiux {
-    height: 270px;
+    height: 280px;
   }
   #service .frontend {
-    height: 270px;
+    height: 280px;
   }
 
   #contact p {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   #tools img {
     margin: 0px 10px 0px 10px;
@@ -94,7 +109,7 @@
     text-align: center;
   }
   #footer p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   #footer h6 {
     font-size: 1rem;
