@@ -5,7 +5,11 @@
   --acsentColor: #c3313b;
 }
 * {
+<<<<<<< HEAD
   font-family: montserrat;
+=======
+  font-family: roboto;
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
 }
 html {
   scroll-behavior: smooth;
@@ -45,6 +49,7 @@ body {
   font-weight: 700;
 }
 #hero h1 {
+<<<<<<< HEAD
   font-size: 3rem;
   font-weight: 700;
 }
@@ -54,17 +59,32 @@ body {
 }
 #hero .btnHeroBox {
   padding-top: 70px;
+=======
+  font-size: 4rem;
+  font-weight: 700;
+}
+#hero p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+#hero .btnHeroBox {
+  padding-top: 20px;
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
 }
 #hero .btnHeroBox .hireMe {
   background-color: var(--maincolor);
   color: var(--acsentColor);
   font-weight: 500;
+<<<<<<< HEAD
   box-shadow: inset 0 0 0 var(--acsentColor);
   transition: ease-in-out 0.5s;
+=======
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
 }
 #hero .btnHeroBox .cv {
   border: 1px solid var(--maincolor);
   color: var(--maincolor);
+<<<<<<< HEAD
   box-shadow: inset 0 0 0 var(--acsentColor);
   transition: ease-in-out 0.5s;
 }
@@ -75,6 +95,8 @@ body {
 #hero .btnHeroBox .cv:hover {
   box-shadow: inset 300px 0 0 0 var(--maincolor);
   color: var(--acsentColor);
+=======
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
 }
 /* End Hero */
 
@@ -158,12 +180,16 @@ body {
   border: 1px solid var(--acsentColor);
   color: var(--acsentColor);
   font-weight: 500;
+<<<<<<< HEAD
   box-shadow: inset 0 0 0 var(--maincolor);
   transition: ease-in-out 0.5s;
+=======
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
 }
 #about .btnAboutBox .cv {
   background-color: var(--acsentColor);
   color: var(--maincolor);
+<<<<<<< HEAD
   box-shadow: inset 0 0 0 var(--acsentColor);
   transition: ease-in-out 0.5s;
 }
@@ -174,6 +200,8 @@ body {
 #about .btnAboutBox .cv:hover {
   box-shadow: inset 300px 0 0 0 var(--maincolor);
   color: var(--acsentColor);
+=======
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
 }
 /* End About */
 
@@ -182,6 +210,7 @@ body {
   background-image: url('../../assets/img/bg/mark-latest-new.png');
   background-size: cover;
 }
+<<<<<<< HEAD
 #service .graphic h4 {
   font-weight: 600;
   margin-top: 20px;
@@ -189,6 +218,13 @@ body {
 }
 #service .graphic {
   height: 290px;
+=======
+#service h4 {
+  color: var(--acsentColor);
+}
+#service .graphic {
+  height: 270px;
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
   background-image: url('../../assets/img/bg/bg-service-min.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -196,6 +232,7 @@ body {
 }
 #service .graphic p {
   color: var(--maincolor);
+<<<<<<< HEAD
   font-size: 1.1rem;
 
   text-align: left;
@@ -207,6 +244,14 @@ body {
 }
 #service .uiux {
   height: 290px;
+=======
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: left;
+}
+#service .uiux {
+  height: 270px;
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
   background-image: url('../../assets/img/bg/bg-service-min.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -214,6 +259,7 @@ body {
 }
 #service .uiux p {
   color: var(--maincolor);
+<<<<<<< HEAD
   font-size: 1.1rem;
   text-align: left;
 }
@@ -224,6 +270,14 @@ body {
 }
 #service .frontend {
   height: 290px;
+=======
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: left;
+}
+#service .frontend {
+  height: 270px;
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
   background-image: url('../../assets/img/bg/bg-service-min.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -231,7 +285,12 @@ body {
 }
 #service .frontend p {
   color: var(--maincolor);
+<<<<<<< HEAD
   font-size: 1.1rem;
+=======
+  font-size: 18px;
+  margin-top: 30px;
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
   text-align: left;
 }
 /* End Service */
@@ -280,12 +339,16 @@ body {
 #promotion .btnPromotionBox .hireMe {
   background-color: var(--acsentColor);
   color: var(--maincolor);
+<<<<<<< HEAD
   box-shadow: inset 0 0 0 var(--maincolor);
   transition: ease-in-out 0.5s;
+=======
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
 }
 #promotion .btnPromotionBox .cv {
   border: 1px solid var(--acsentColor);
   color: var(--acsentColor);
+<<<<<<< HEAD
   box-shadow: inset 0 0 0 var(--maincolor);
   transition: ease-in-out 0.5s;
 }
@@ -299,6 +362,10 @@ body {
 }
 #promotion .people img {
   padding-top: 40px;
+=======
+}
+#promotion .people img {
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
   width: 60%;
 }
 
@@ -318,7 +385,11 @@ body {
   width: 65%;
 }
 #footer p {
+<<<<<<< HEAD
   font-size: 0.9rem;
+=======
+  font-size: 16px;
+>>>>>>> f19923b91b39d8d2954b109ad53e82f997a0f5b8
 }
 #footer h6 {
   font-size: 20px;
