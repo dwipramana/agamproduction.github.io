@@ -88,18 +88,23 @@
   #hero .btnHeroBox {
     padding-top: 20px;
   }
+  #hero button {
+    font-size: 0.7rem;
+  }
+  #about button {
+    font-size: 0.7rem;
+  }
   #service .graphic {
-    height: 280px;
+    height: 295px;
+  }
+  #contact p {
+    font-size: 0.7rem;
   }
   #service .uiux {
-    height: 280px;
+    height: 295px;
   }
   #service .frontend {
-    height: 280px;
-  }
-
-  #contact p {
-    font-size: 0.5rem;
+    height: 295px;
   }
   #tools img {
     margin: 0px 10px 0px 10px;
@@ -107,10 +112,16 @@
   #promotion {
     text-align: center;
   }
+  #promotion button {
+    font-size: 0.7rem;
+  }
   #footer p {
     font-size: 0.6rem;
   }
   #footer h6 {
     font-size: 1rem;
+  }
+  #footer h1 {
+    text-align: center;
   }
 }
