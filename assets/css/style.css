@@ -47,6 +47,7 @@ body {
 #hero h1 {
   font-size: 3rem;
   font-weight: 700;
+  padding: 20px 0px 20px 0px;
 }
 #hero p {
   font-size: 0.9rem;
@@ -104,9 +105,16 @@ body {
 }
 #about h4 {
   color: var(--acsentColor);
+  font-size: 1.5rem;
+}
+#about h4 {
+  font-size: 1.5rem;
 }
 #about h3 {
   font-weight: 700;
+}
+#about .profileAbout img {
+  width: 70%;
 }
 #about .profileAbout {
   animation: profile2 5s ease-in-out infinite;
@@ -121,6 +129,9 @@ body {
   }
 }
 
+#about .tmore img {
+  width: 25%;
+}
 #about .animate2 {
   position: absolute;
   left: 10%;
@@ -137,7 +148,9 @@ body {
     transform: translateX(25px);
   }
 }
-
+#about h3 {
+  font-size: 1.6rem;
+}
 #about .animate3 {
   position: absolute;
   left: 37%;
@@ -181,6 +194,12 @@ body {
 #service {
   background-image: url('../../assets/img/bg/mark-latest-new.png');
   background-size: cover;
+}
+#service img {
+  width: 55%;
+}
+#service h4 {
+  font-size: 1.5rem;
 }
 #service .graphic h4 {
   font-weight: 600;
@@ -256,8 +275,12 @@ body {
   background-repeat: no-repeat;
   color: var(--maincolor);
 }
+#portfolio h1 {
+  font-size: 3rem;
+}
 #portfolio h4 {
   color: var(--acsentColor);
+  font-size: 1.5rem;
 }
 #portfolio .project img {
   width: 100%;
@@ -265,7 +288,7 @@ body {
 #portfolio i {
   color: var(--acsentColor);
 }
-#portfolio h3 {
+#portfolio h5 {
   font-size: 1.2rem;
 }
 /* End Portfolio */
@@ -273,6 +296,7 @@ body {
 /* Promotion */
 #promotion h4 {
   color: var(--acsentColor);
+  font-size: 1.5rem;
 }
 #promotion h1 {
   font-weight: 700;

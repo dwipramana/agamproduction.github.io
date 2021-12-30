@@ -7,16 +7,28 @@
     font-size: 3rem;
   }
   #hero p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
-  #hero button {
-    font-size: 0.7rem;
+  #hero .btnHeroBox {
+    padding-top: 20px;
+  }
+  #hero p {
+    font-size: 0.9rem;
+    line-height: 2rem;
+  }
+  #about p {
+    font-size: 0.9rem;
   }
   #about .animate2,
   .animate3 {
     display: none;
   }
-
+  #hero button {
+    font-size: 0.9rem;
+  }
+  #about button {
+    font-size: 0.9rem;
+  }
   #service .graphic {
     height: 375px;
   }
@@ -26,18 +38,69 @@
   #service .frontend {
     height: 375px;
   }
+  #promotion button {
+    font-size: 0.9rem;
+  }
   #footer p {
     font-size: 0.8rem;
   }
 }
-/* // Large devices (desktops, 992px and up)  */
+/* Custom 1*/
+@media (max-width: 1201px) and (min-width: 992px) {
+  #service .graphic {
+    height: 340px;
+  }
+  #service .uiux {
+    height: 340px;
+  }
+  #service .frontend {
+    height: 340px;
+  }
+}
+/* Custom 2*/
+@media (max-width: 1172px) {
+  #service .graphic {
+    height: 300px;
+  }
+  #service .uiux {
+    height: 300px;
+  }
+  #service .frontend {
+    height: 300px;
+  }
+}
+/* Custom 3*/
+@media (max-width: 1104px) {
+  #service .graphic {
+    height: 325px;
+  }
+  #service .uiux {
+    height: 325px;
+  }
+  #service .frontend {
+    height: 325px;
+  }
+}
+/* Custom 3*/
+@media (max-width: 1024px) {
+  #service .graphic {
+    height: 350px;
+  }
+  #service .uiux {
+    height: 350px;
+  }
+  #service .frontend {
+    height: 350px;
+  }
+}
+/* // Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
   #hero .btnHeroBox {
     padding-top: 20px;
   }
-  #about h4 {
-    text-align: center;
-    padding-top: 10px;
+
+  #about h3 {
+    padding-top: 30px;
   }
   #service .graphic {
     height: 240px;
@@ -91,23 +154,79 @@
   #hero button {
     font-size: 0.7rem;
   }
+  #hero h1 {
+    font-size: 1.7rem;
+    padding: 0px 0px 0px 0px;
+  }
+  #hero h3 {
+    font-size: 1.2rem;
+  }
+  #hero p {
+    line-height: 1.6rem;
+  }
+  #about h1 {
+    font-size: 1.7rem;
+  }
+  #about h3 {
+    font-size: 1.2rem;
+  }
+  #about h4 {
+    font-size: 1.2rem;
+  }
   #about button {
     font-size: 0.7rem;
   }
+  #service h1 {
+    font-size: 1.7rem;
+  }
+  #service h4 {
+    font-size: 1rem;
+  }
+  #service .graphic h4 {
+    font-size: 1.2rem;
+  }
+  #service .uiux h4 {
+    font-size: 1.2rem;
+  }
+  #service .frontend h4 {
+    font-size: 1.2rem;
+  }
+  #service .graphic p {
+    font-size: 1rem;
+  }
+  #service .uiux p {
+    font-size: 1rem;
+  }
+  #service .frontend p {
+    font-size: 1rem;
+  }
   #service .graphic {
-    height: 295px;
+    height: 250px;
   }
   #contact p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+  }
+  #portfolio h4 {
+    font-size: 1.2rem;
   }
   #service .uiux {
-    height: 295px;
+    height: 250px;
   }
   #service .frontend {
-    height: 295px;
+    height: 250px;
   }
   #tools img {
+    width: 20%;
     margin: 0px 10px 0px 10px;
+  }
+  #portfolio h1 {
+    font-size: 1.7rem;
+  }
+  #portfolio h5 {
+    font-size: 0.9rem;
+  }
+  #portfolio p {
+    font-size: 0.8rem;
   }
   #promotion {
     text-align: center;
@@ -123,5 +242,6 @@
   }
   #footer h1 {
     text-align: center;
+    font-size: 1.7rem;
   }
 }
