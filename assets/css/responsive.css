@@ -18,14 +18,26 @@
   }
   #about p {
     font-size: 0.9rem;
+    text-align: justify;
+    text-justify: inter-word;
   }
   #about .animate2,
   .animate3 {
     display: none;
   }
-  #hero button {
+  #hero a {
     font-size: 0.9rem;
   }
+  #hero .btnHeroBox .hireMe {
+    background-color: var(--maincolor);
+    color: var(--acsentColor);
+    font-weight: 500;
+  }
+  #hero .btnHeroBox .cv {
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+  }
+
   #about button {
     font-size: 0.9rem;
   }
@@ -148,10 +160,13 @@
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+  #contact p {
+    font-size: 0.7rem;
+  }
   #hero .btnHeroBox {
     padding-top: 20px;
   }
-  #hero button {
+  #hero a {
     font-size: 0.7rem;
   }
   #hero h1 {
@@ -173,7 +188,7 @@
   #about h4 {
     font-size: 1.2rem;
   }
-  #about button {
+  #about a {
     font-size: 0.7rem;
   }
   #service h1 {
@@ -203,11 +218,9 @@
   #service .graphic {
     height: 250px;
   }
-  #contact p {
-    font-size: 0.6rem;
-  }
+
   #portfolio h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   #service .uiux {
     height: 250px;
@@ -231,11 +244,14 @@
   #promotion {
     text-align: center;
   }
-  #promotion button {
+  #promotion h4 {
+    font-size: 1rem;
+  }
+  #promotion a {
     font-size: 0.7rem;
   }
   #footer p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
   #footer h6 {
     font-size: 1rem;
@@ -243,5 +259,16 @@
   #footer h1 {
     text-align: center;
     font-size: 1.7rem;
+  }
+}
+@media (max-width: 350px) {
+  #service .graphic {
+    height: 280px;
+  }
+  #service .uiux {
+    height: 280px;
+  }
+  #service .frontend {
+    height: 280px;
   }
 }
