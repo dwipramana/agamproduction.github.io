@@ -61,21 +61,11 @@ body {
   color: var(--acsentColor);
   font-weight: 500;
   box-shadow: inset 0 0 0 var(--acsentColor);
-  transition: ease-in-out 0.5s;
 }
 #hero .btnHeroBox .cv {
   border: 1px solid var(--maincolor);
   color: var(--maincolor);
   box-shadow: inset 0 0 0 var(--acsentColor);
-  transition: ease-in-out 0.5s;
-}
-#hero .btnHeroBox .hireMe:hover {
-  box-shadow: inset 300px 0 0 0 var(--acsentColor);
-  color: var(--maincolor);
-}
-#hero .btnHeroBox .cv:hover {
-  box-shadow: inset 300px 0 0 0 var(--maincolor);
-  color: var(--acsentColor);
 }
 /* End Hero */
 
@@ -172,21 +162,11 @@ body {
   color: var(--acsentColor);
   font-weight: 500;
   box-shadow: inset 0 0 0 var(--maincolor);
-  transition: ease-in-out 0.5s;
 }
 #about .btnAboutBox .cv {
   background-color: var(--acsentColor);
   color: var(--maincolor);
   box-shadow: inset 0 0 0 var(--acsentColor);
-  transition: ease-in-out 0.5s;
-}
-#about .btnAboutBox .hireMe:hover {
-  box-shadow: inset 300px 0 0 0 var(--acsentColor);
-  color: var(--maincolor);
-}
-#about .btnAboutBox .cv:hover {
-  box-shadow: inset 300px 0 0 0 var(--maincolor);
-  color: var(--acsentColor);
 }
 /* End About */
 
@@ -305,21 +285,11 @@ body {
   background-color: var(--acsentColor);
   color: var(--maincolor);
   box-shadow: inset 0 0 0 var(--maincolor);
-  transition: ease-in-out 0.5s;
 }
 #promotion .btnPromotionBox .cv {
   border: 1px solid var(--acsentColor);
   color: var(--acsentColor);
   box-shadow: inset 0 0 0 var(--maincolor);
-  transition: ease-in-out 0.5s;
-}
-#promotion .btnPromotionBox .hireMe:hover {
-  box-shadow: inset 300px 0 0 0 var(--maincolor);
-  color: var(--acsentColor);
-}
-#promotion .btnPromotionBox .cv:hover {
-  box-shadow: inset 300px 0 0 0 var(--acsentColor);
-  color: var(--maincolor);
 }
 #promotion .people img {
   padding-top: 40px;

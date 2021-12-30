@@ -28,15 +28,6 @@
   #hero a {
     font-size: 0.9rem;
   }
-  #hero .btnHeroBox .hireMe {
-    background-color: var(--maincolor);
-    color: var(--acsentColor);
-    font-weight: 500;
-  }
-  #hero .btnHeroBox .cv {
-    border: 1px solid var(--maincolor);
-    color: var(--maincolor);
-  }
 
   #about button {
     font-size: 0.9rem;
